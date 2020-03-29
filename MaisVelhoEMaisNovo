@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class MaisVelhoMaisNovo
+{
+   public static void main(String Args[])
+   {
+       int c,d;
+       System.out.println("Digite seu nome: ");
+       Scanner x = new Scanner(System.in);
+       String a = x.nextLine();
+       System.out.println("Digite sua idade: ");
+       Scanner y = new Scanner(System.in);
+       c = y.nextInt();
+       System.out.println("Segundo usuário digite seu nome: ");
+       Scanner z = new Scanner(System.in);
+       String b = z.nextLine();
+       System.out.println("Segundo usuário digite sua idade: ");
+       Scanner k = new Scanner(System.in);
+       d = k.nextInt();
+       if (c > d)
+       {
+           System.out.println(a+" é o mais velho.");
+           System.out.println(b+" é o mais novo.");
+       } 
+       else
+       {
+           System.out.println(b+" é o mais velho.");
+           System.out.println(a+" é o mais novo.");
+       }
+    }
+}
